@@ -1,9 +1,7 @@
 Library
-  structure Ast
-  structure Machine
-  structure Translate
-  structure EC
+  structure Tigh
 is
   tiger.sml
+  tokens.sml
   $/ml-yacc-lib.cm
   $/basis.cm
