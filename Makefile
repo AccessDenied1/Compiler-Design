@@ -19,5 +19,5 @@ clean:
 test:
 	@echo "No test cases"
 
-tigc: tiger.lex.sml tiger.mlb tiger.sml tokens.sml
+tigc: tiger.mlb tokens.sml tiger.sml tiger.lex.sml
 	@mlton -output tigc tiger.mlb
